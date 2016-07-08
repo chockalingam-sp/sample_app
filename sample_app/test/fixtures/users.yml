@@ -1,3 +1,11 @@
+chocku:
+  name: Chocku Example
+  email: chocku@fd.com
+  password_digest: <%= User.digest('password') %>
+  admin: true
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
 michael:
   name: Michael Example
   email: michael@example.com
